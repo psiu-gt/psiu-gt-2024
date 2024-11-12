@@ -8,10 +8,7 @@ p {
 
 .small-image {
     width: 90%;
-}
-
-.page-text {
-
+    border-radius: 10px;
 }
 
 .nav-bar-container {
@@ -51,4 +48,39 @@ p {
     top: 50%;
     right: 0;
     transform: translateY(-60%);
+}
+
+footer {
+    position: fixed;
+    background-color: white;
+    position: fixed;
+    height: 60px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.buttons-container {
+    width: fit-content;
+    margin: auto;
+    position: relative;
+}
+
+.buttons-container div {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    border-color:rgb(122, 23, 31);
+    border-width: 2px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 15px;
+    margin-inline: 5px;
+    transition: 0.5s;
+}
+
+.buttons-container div:hover {
+    background-color:rgb(122, 23, 31);
 }
