@@ -1,9 +1,12 @@
 h2 {
     color: white;
+    font-size: 27px;
 }
 
 p {
     color: white;
+    font-size: 20px;
+    text-align: justify;
 }
 
 .small-image {
@@ -34,7 +37,7 @@ p {
 .page-text-wrapper {
     margin: 50px;
     display: inline-block;
-    width: 35%;
+    width: 40%;
     position: absolute;
     top: 50%;
     transform: translateY(-60%);
