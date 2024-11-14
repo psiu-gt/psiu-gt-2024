@@ -69,7 +69,7 @@ footer {
     position: relative;
 }
 
-.buttons-container div {
+.buttons-container .button {
     display: inline-block;
     width: 30px;
     height: 30px;
@@ -78,12 +78,33 @@ footer {
     border-color:rgb(122, 23, 31);
     border-width: 2px;
     border-radius: 10px;
+    position: relative;
     margin: auto;
     margin-top: 15px;
     margin-inline: 5px;
     transition: 0.5s;
 }
 
-.buttons-container div:hover {
+.buttons-container .button:hover svg,
+.buttons-container .button:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+.buttons-container .button:hover {
     background-color:rgb(122, 23, 31);
+}
+
+svg {
+    width: 15px;
+    margin: auto;
+    color:rgb(122, 23, 31);
+    transition: 0.5s;
+}
+
+.facebook-wrapper {
+    width: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(33%, -45%);
 }
