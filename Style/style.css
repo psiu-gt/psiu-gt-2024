@@ -96,8 +96,6 @@ footer {
 }
 
 svg {
-    width: 15px;
-    margin: auto;
     color:rgb(122, 23, 31);
     transition: 0.5s;
 }
@@ -107,4 +105,26 @@ svg {
     position: absolute;
     top: 50%;
     transform: translate(33%, -45%);
+}
+
+.facebook-icon {
+    width: 15px;
+}
+
+.instagram-wrapper {
+    width: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(22%, -43%);
+}
+
+.instagram-icon {
+    width: 22px;
+}
+
+.twitter-wrapper {
+    width: 23px;
+    position: absolute;
+    top: 50%;
+    transform: translate(20%, -45%);
 }
