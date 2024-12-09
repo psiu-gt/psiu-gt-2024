@@ -89,6 +89,40 @@ p {
     transform: translateY(-60%);
 }
 
+.rush-button-container {
+    height: 350px;
+    background-color: white;
+}
+
+.rush-button {
+    color: #661d1d;
+    width: 200px;
+    height: 75px;
+    border: solid 4px #661d1d;
+    border-radius: 10px;
+    margin-inline: auto;
+    margin-top: 250px;
+    transition: 0.5s;
+}
+
+.rush-button p {
+    color: #661d1d;
+    width: fit-content;
+    margin-inline: auto;
+    transform: translateY(-3px);
+    font-size: 25px;
+}
+
+.rush-button:hover {
+    background-color: #661d1d;
+    color: white;
+}
+
+.rush-button:hover p {
+    color: white;
+}
+
+
 footer {
     position: fixed;
     background-color: white;
