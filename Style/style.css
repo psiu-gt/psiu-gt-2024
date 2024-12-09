@@ -31,20 +31,30 @@ p {
     width: 100px;
 }
 
-.nav-bar-container p {
-    width: fit-content;
-    padding: 25px;
+.nav-bar-container a {
+    margin-bottom: 10px;
 }
 
-.link-wrapper {
-    display: inline-block;
-    padding-bottom: 20px;
+.nav-bar-container p {
+    width: fit-content;
+    padding-top: 23px;
+    padding-bottom: 24px;
+    background-color: #661d1d;
+    padding-inline: 20px;
+    float: left;
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+
+.nav-bar-container p:hover {
+    background-color: #9e4f47;
 }
 
 .nav-bar-container img {
     height: 50px;
     margin-top: 10px;
-    display: inline-block;
+    padding-inline: 20px;
+    float: left;
 }
 
 .carousel-container {
