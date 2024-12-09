@@ -39,7 +39,7 @@
         <div class="carousel-container"></div>
 
             <div class="text-and-image-container">
-                <div class="page-text-wrapper nunito-bold">
+                <div class="page-text-wrapper nunito-bold" id="pageText">
                     <h2 class="quote">
                         "She yeed on my haw till I yeed."
                     </h2>
@@ -52,11 +52,30 @@
                         non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                 </div>
-                <div class="small-image-wrapper">
-                    <img class="small-image" src="Images/goofyahhcat.jpg">
+                <div class="small-image-wrapper" id="smallImageWrapper">
+                    <img class="small-image" id="smallImage" src="Images/goofyahhcat.jpg">
                 </div>
             </div>
         </div>
+
+        <script>
+            
+            window.addEventListener('scroll', function() {
+                var pageImage = document.getElementById("smallImageWrapper");
+                var pageText = document.getElementById("pageText");
+
+                if (window.scrollY > 250) {
+                    pageImage.style.opacity = "1";
+                    pageText.style.opacity = "1";
+                }
+
+                if (window.scrollY < 150) {
+                    pageImage.style.opacity = "0";
+                    pageText.style.opacity = "0";
+                }
+
+            });
+        </script>
 
         <div class="rush-button-container">
             <h2 class="rush-header nunito-bold">Rush Our Fraternity!</h2>
