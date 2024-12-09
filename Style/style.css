@@ -28,14 +28,11 @@ p {
 
 .link-container {
     width: 100px;
-    position: relative;
 }
 
 .link-wrapper {
-    width: 100px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(5%);
+    width: fit-content;
+    padding-block: 20px;
 }
 
 .carousel-container {
@@ -145,3 +142,17 @@ svg {
     top: 50%;
     transform: translate(20%, -45%);
 }
+
+.nunito-bold {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .nunito-regular {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
