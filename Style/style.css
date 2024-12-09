@@ -56,7 +56,7 @@ p {
 .text-and-image-container {
     position: relative;
     padding: 10px;
-    background-color: rgb(122, 23, 31);
+    background-color: #661d1d;
     height: 800px;
 }
 
@@ -101,7 +101,7 @@ footer {
     height: 30px;
     background-color: rgb(255, 255, 255);
     border: solid;
-    border-color:rgb(122, 23, 31);
+    border-color:#661d1d;
     border-width: 2px;
     border-radius: 10px;
     position: relative;
@@ -118,11 +118,11 @@ footer {
 }
 
 .buttons-container .button:hover {
-    background-color:rgb(122, 23, 31);
+    background-color:#661d1d;
 }
 
 svg {
-    color:rgb(122, 23, 31);
+    color:#661d1d;
     transition: 0.5s;
 }
 
